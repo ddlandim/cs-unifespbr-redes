@@ -1,0 +1,15 @@
+# '/etc/network/interfaces' created by jNetEdit
+
+# Interfaces configuration
+auto eth0
+iface eth0 inet static
+	address 192.168.0.11
+	network 192.168.0.0
+	netmask 255.255.255.0
+	broadcast 192.168.0.255
+
+
+# exec firewall config script
+post-up /etc/network/myscript/firewall
+
+

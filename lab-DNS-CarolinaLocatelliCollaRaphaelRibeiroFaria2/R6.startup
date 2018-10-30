@@ -1,8 +1,11 @@
-ifconfig eth0 200.131.134.1/24 up
-ifconfig eth1 10.0.0.10/30 up
-ifconfig eth2 10.0.0.21/30 up
-route add -net 200.131.135.0/24 gw 10.0.0.9 dev eth1
-route add -net 200.131.132.0/24 gw 10.0.0.9 dev eth1
-route add -net 143.107.231.0/24 gw 10.0.0.22 dev eth2
-route add -net 200.131.133.0/24 gw 10.0.0.22 dev eth2
+#rroot
+ifconfig eth0 192.168.5.1/24 up
+ifconfig eth1 200.202.0.131/30 up
+ifconfig eth2 179.200.100.131/30 up
+
+route add -net 192.168.2.0/24 gw 200.202.0.132 dev eth1
+route add -net 192.168.0.0/24 gw 200.202.0.132 dev eth1
+
+route add -net 192.168.1.0/24 gw 179.200.100.132 dev eth2
+route add -net 192.168.3.0/24 gw 179.200.100.132 dev eth2
 

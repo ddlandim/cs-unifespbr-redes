@@ -1,2 +1,2 @@
-ifconfig eth0 143.107.231.2/24 up
-route add default gw 143.107.231.1
+ifconfig eth0 192.168.1.12/24 up
+route add default gw 192.168.1.1

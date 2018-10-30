@@ -7,5 +7,5 @@ $TTL	60000
 				0			;negative cache ttl
 				)
 @		IN	NS	dnsraiz.raiz.org.
-dnsraiz		IN	A	143.107.231.2
-www		IN	A	143.107.231.3
+dnsraiz		IN	A	192.168.1.12
+www		IN	A	192.168.1.11

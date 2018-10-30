@@ -1,0 +1,12 @@
+$TTL			60000
+@			IN	SOA	dnsorg.org.	admin.dnsorg.org. (
+					2018100501
+					30
+					15
+					60000
+					0
+)
+@				IN	NS	dnsorg.org.
+dnsorg			IN	A	200.131.133.2
+raiz			IN	NS	dnsraiz.raiz.org.
+dnsraiz.raiz	IN	A	143.107.231.2

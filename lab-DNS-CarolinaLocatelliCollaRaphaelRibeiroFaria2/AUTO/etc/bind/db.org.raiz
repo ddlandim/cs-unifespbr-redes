@@ -1,0 +1,11 @@
+$TTL	60000
+@		IN	SOA	dnsraiz.raiz.org.	admin.dnsraiz.raiz.org. (
+				2018100501		;serial
+				30			;refresh
+				15			;retry
+				60000			;expire
+				0			;negative cache ttl
+				)
+@		IN	NS	dnsraiz.raiz.org.
+dnsraiz		IN	A	143.107.231.2
+www		IN	A	143.107.231.3

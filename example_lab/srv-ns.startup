@@ -1,2 +1,4 @@
 ifconfig eth0 15.0.0.11/24 up
+
+/etc/init.d/bind 9 start
 /etc/init.d/bind start

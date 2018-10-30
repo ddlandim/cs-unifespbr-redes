@@ -1,0 +1,16 @@
+$TTL	60000
+@		IN	SOA		dnsauto.auto.local. admin.dnsauto.auto.local. (
+					2018100501			 ;serial
+					30					 ;refresh
+					15					 ;retry
+					60000				 ;expire
+					0					 ;negative cache ttl
+					)
+				
+@		IN	NS		dnsauto.auto.local.
+dnsauto	IN	A		192.168.1.12
+www		IN 	A 		192.168.1.11
+
+#@ 		IN 	MX 	5	mail.auto.local
+#mail	IN	A		192.168.1.12
+#imap	IN	A		192.168.1.12

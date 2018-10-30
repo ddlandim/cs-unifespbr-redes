@@ -15,4 +15,4 @@ tc qdisc add dev eth0 root tbf rate 10mbit latency 50 burst 15000
 tc qdisc add dev eth1 root tbf rate 5mbit latency 50 burst 15000 
 
 tc qdisc add dev eth2 root tbf rate 5mbit latency 50 burst 15000 
-#
+##

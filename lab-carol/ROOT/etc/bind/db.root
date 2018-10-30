@@ -7,6 +7,6 @@ $TTL		60000
 				0		;negative cache ttl
 				)
 @		IN	NS	ROOT-SERVER.
-ROOT-SERVER.	IN	A	200.131.134.2
+ROOT-SERVER.	IN	A	192.168.3.11
 org		IN	NS	dnsorg.org.
-dnsorg.org.	IN	A	200.131.133.2
+dnsorg.org.	IN	A	192.168.5.11

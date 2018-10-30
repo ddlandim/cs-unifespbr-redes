@@ -7,6 +7,6 @@ $TTL			60000
 					0
 )
 @				IN	NS	dnsorg.org.
-dnsorg			IN	A	192.168.3.11
+dnsorg			IN	A	200.131.133.2
 raiz			IN	NS	dnsraiz.raiz.org.
-dnsraiz.raiz	IN	A	192.168.1.12
+dnsraiz.raiz	IN	A	143.107.231.2

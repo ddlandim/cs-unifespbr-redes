@@ -1,12 +1,12 @@
 $TTL			60000
-@			IN	SOA	dnsorg.org.	admin.dnsorg.org. (
+@			IN	SOA	dnslan.lan.	admin.dnslan.lan. (
 					2018100501
 					30
 					15
 					60000
 					0
 )
-@				IN	NS	dnsorg.org.
-dnsorg			IN	A	192.168.3.11
-raiz			IN	NS	dnsraiz.raiz.org.
-dnsraiz.raiz	IN	A	192.168.1.12
+@				IN	NS	dnslan.lan.
+dnslan			IN	A	192.168.3.11
+auto			IN	NS	dnsauto.auto.lan.
+dnsauto.auto	IN	A	192.168.1.12

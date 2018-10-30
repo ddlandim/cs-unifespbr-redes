@@ -8,5 +8,5 @@ $TTL		60000
 				)
 @				IN	NS	ROOT-SERVER.
 ROOT-SERVER.	IN	A	192.168.5.11
-lan				IN	NS	dnslan.lan.
-dnslan.lan.		IN	A	192.168.3.11
+org				IN	NS	dnsorg.org.
+dnsorg.org.		IN	A	192.168.3.11

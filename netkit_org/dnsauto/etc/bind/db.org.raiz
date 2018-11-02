@@ -9,6 +9,7 @@ $TTL	60000
 @		IN	NS		dnsraiz.raiz.org.
 dnsraiz	IN	A		192.168.1.12
 www		IN	A		192.168.1.11
+
 @		IN	MX	5	mail.raiz.org
 mail	IN	A		192.168.1.12
 pop3	IN	A		192.168.1.12

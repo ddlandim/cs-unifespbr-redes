@@ -1,4 +1,0 @@
-$TTL   60000
-@    IN SOA undefined root.undefined 2006031201 28800 14400 3600000 0
-
-web.srv.    IN A 20.0.0.2

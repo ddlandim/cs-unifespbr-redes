@@ -1,4 +1,0 @@
-ifconfig eth0 200.131.132.2/24 up
-route add default gw 200.131.132.1
-
-echo "nameserver 200.131.135.2" > /etc/resolv.conf

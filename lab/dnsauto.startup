@@ -1,0 +1,5 @@
+ifconfig eth0 192.168.1.12 netmask 255.255.255.0 up
+route add default gw 192.168.1.1 dev eth0
+/etc/init.d/bind9 start
+/etc/init.d/exim4 start
+/etc/init.d/openbsd-inetd start
